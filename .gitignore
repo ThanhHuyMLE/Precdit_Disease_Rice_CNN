@@ -9,13 +9,9 @@ checkpoint/
 *.pth
 *.onnx
 
-# Datasets (contain gigabytes of raw images, do not push to github)
+# Ignore raw data only (keep processed data)
 dataset/data_raw/
-dataset/data_processed/train/
-dataset/data_processed/valid/
-dataset/data_processed/test/
 
-# Keep CSV files or metadata if needed, but ignore raw large folders
 # Virtual environments
 .venv/
 venv/
@@ -30,4 +26,3 @@ Thumbs.db
 
 # Logs & outputs
 *.log
-
